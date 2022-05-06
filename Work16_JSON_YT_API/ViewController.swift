@@ -6,12 +6,37 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var webView: WKWebView!
+    
+    
+    var YTDataFromPrePage = [YTMusic.Items]()
+    var index:Int
+    
+    init?(coder: NSCoder, YTDataFromPrePage: [YTMusic.Items],index:Int) {
+        self.YTDataFromPrePage = YTDataFromPrePage
+        self.index = index
+        super.init(coder: coder)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let urlToWatch = "https://www.youtube.com/watch?v=\(YTDataFromPrePage[index].contentDetails.videoId)"
+        if let url = URL(string: urlToWatch) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+        }
+        
+        
+        
     }
 
 

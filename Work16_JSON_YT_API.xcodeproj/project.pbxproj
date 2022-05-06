@@ -13,6 +13,10 @@
 		EB3D5F162823775E00BED064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3D5F142823775E00BED064 /* Main.storyboard */; };
 		EB3D5F182823775F00BED064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3D5F172823775F00BED064 /* Assets.xcassets */; };
 		EB3D5F1B2823775F00BED064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3D5F192823775F00BED064 /* LaunchScreen.storyboard */; };
+		EB3D5F232823776E00BED064 /* YTJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D5F222823776E00BED064 /* YTJSON.swift */; };
+		EB3D5F2528238F5600BED064 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D5F2428238F5600BED064 /* MusicTableViewController.swift */; };
+		EB3D5F2728238F8200BED064 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D5F2628238F8200BED064 /* MusicTableViewCell.swift */; };
+		EB3D5F292823D45F00BED064 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D5F282823D45F00BED064 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EB3D5F172823775F00BED064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3D5F1A2823775F00BED064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB3D5F1C2823775F00BED064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3D5F222823776E00BED064 /* YTJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTJSON.swift; sourceTree = "<group>"; };
+		EB3D5F2428238F5600BED064 /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
+		EB3D5F2628238F8200BED064 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		EB3D5F282823D45F00BED064 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		EB3D5F0D2823775E00BED064 /* Work16_JSON_YT_API */ = {
 			isa = PBXGroup;
 			children = (
+				EB3D5F222823776E00BED064 /* YTJSON.swift */,
 				EB3D5F0E2823775E00BED064 /* AppDelegate.swift */,
 				EB3D5F102823775E00BED064 /* SceneDelegate.swift */,
 				EB3D5F122823775E00BED064 /* ViewController.swift */,
+				EB3D5F2428238F5600BED064 /* MusicTableViewController.swift */,
+				EB3D5F2628238F8200BED064 /* MusicTableViewCell.swift */,
+				EB3D5F282823D45F00BED064 /* PlayerViewController.swift */,
 				EB3D5F142823775E00BED064 /* Main.storyboard */,
 				EB3D5F172823775F00BED064 /* Assets.xcassets */,
 				EB3D5F192823775F00BED064 /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				EB3D5F132823775E00BED064 /* ViewController.swift in Sources */,
 				EB3D5F0F2823775E00BED064 /* AppDelegate.swift in Sources */,
+				EB3D5F2528238F5600BED064 /* MusicTableViewController.swift in Sources */,
+				EB3D5F292823D45F00BED064 /* PlayerViewController.swift in Sources */,
+				EB3D5F232823776E00BED064 /* YTJSON.swift in Sources */,
 				EB3D5F112823775E00BED064 /* SceneDelegate.swift in Sources */,
+				EB3D5F2728238F8200BED064 /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
